@@ -5,7 +5,7 @@ const {
   getCourse,
   addCourse,
   deleteCourse,
-} = require("../../controllers/v1/Courses");
+} = require("../../controllers/v1/courses");
 const advancedMiddleWare = require("../../middleware/advancedFilter");
 const courses = require("../../models/courses");
 const router = express.Router({ mergeParams: true });
